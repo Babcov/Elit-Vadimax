@@ -1,0 +1,394 @@
+/* Template Options */
+
+/*
+	--//-- 1. Color Options --//--
+
+	- Theme color - f25253  (rgba - 242, 82, 83);
+	
+	--//-- 2. Theme Font --//--
+   
+	- Main font Roboto;	
+	
+*/
+
+body,
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="submit"],
+textarea {
+	font-family: 'Roboto', sans-serif;
+}
+
+.logo_retina {
+	width:139px;
+	height:66px;
+}
+
+::selection {
+	background:#ed8436;
+	color:#ffffff;
+}
+::-moz-selection {
+	background:#ed8436;
+	color:#ffffff;
+}
+
+a {
+	color:#fff;
+}
+
+.color {
+	color:#ed8436 !important;
+}
+
+header nav ul.menu > li > a:before {
+	background:#fff;
+}
+
+header nav ul.sub-menu > li:hover > a,
+header nav ul.sub-menu > li.current-menu-item > a,
+header nav ul.sub-menu > li.current-menu-parent > a {
+	color:#ed8436;
+}
+
+.main_header.type4 header nav ul.menu > li:hover > a,
+.main_header.type4 header nav ul.menu > li.current-menu-ancestor > a,
+.main_header.type4 header nav ul.menu > li.current-menu-item > a,
+.main_header.type4 header nav ul.menu > li.current-menu-parent > a {
+	color:#ed8436;
+}
+
+.highlighted_colored {
+    background:#ed8436;
+}
+
+.dropcap.type2 {
+	color:#ed8436;
+}
+
+.dropcap.type5 {
+	background:#ed8436;
+}
+
+blockquote.type2:before {
+	color:#ed8436;
+}
+
+blockquote.type5:before {
+	background:#ed8436;
+}
+
+.module_content ul.type2 li:before {
+    color:#ed8436;
+}
+
+.sidepanel a:hover {
+	color:#ed8436;
+}
+
+.recent_posts li a.title:hover,
+.product_posts li a.title:hover,
+.pre_footer .recent_posts li a.title:hover,
+.pre_footer .product_posts li a.title:hover,
+.star_rating,
+.subtotal span {
+	color:#ed8436;
+}
+
+#mc_signup_submit:hover {
+    background: #ed8436 !important;
+}
+
+.tweet_module ul li a:hover,
+.pre_footer .tweet_module ul li a:hover {
+	color:#ed8436;
+}
+
+.shortcode_button.btn_type5,
+.shortcode_button.btn_type4:hover,
+.shortcode_button.btn_type4.dark_parent:hover {
+    background: #ed8436;
+	color:#fff;
+	border-color:#ed8436;
+}
+
+.shortcode_button.btn_type5:hover {
+    background: #ff6667;
+}
+
+.map_collapse:hover {
+	background: #ff6667;
+}
+
+.stat_count {
+	color:#ed8436;
+}
+
+.counter_icon {
+	background:#ed8436;	
+}
+
+.skill_div {
+	background: #ed8436;
+}
+
+.iconbox_wrapper .ico {
+	background: #ed8436;
+}
+
+.color_gradient_vert,
+h5.shortcode_accordion_item_title:hover .ico:after,
+h5.shortcode_toggles_item_title:hover .ico:after,
+h5.shortcode_accordion_item_title.state-active .ico:after,
+h5.shortcode_toggles_item_title.state-active .ico:after,
+.icon5,
+.icon6,
+.icon7,
+.pagerblock li a.current,
+.pagerblock li a.current:hover,
+.pagerblock li span,
+.quantity .minus:hover,
+.quantity .plus:hover,
+a.remove:hover {
+	background: #ed8436; /* Old browsers */
+
+}
+
+.color_gradient_hor,
+.widget_filter .ui-slider-range {
+	background: #ed8436; /* Old browsers */
+
+}
+
+/* Iconbox Gradient */
+a:hover .iconbox_wrapper .ico:after,
+.shortcode_iconbox.type4 .iconbox_wrapper .ico:after,
+.shortcode_iconbox.type5 .iconbox_wrapper .ico:after,
+.step_by_step .iconbox_wrapper .ico:after,
+.shortcode_iconbox.type6 .iconbox_wrapper .ico:after {
+	background: #ed8436; /* Old browsers */
+
+}
+
+.easyPieChart {
+    color: #ed8436;
+}
+
+a:hover .iconbox_wrapper .ico:before {
+	box-shadow:0 0 0 2px #ed8436;	
+}
+
+h1.light span {
+	color: #ed8436;
+}
+
+.slick_testim_info h5 span,
+.testimonials_list li .item h5.testimonials_title span {
+	color: #ed8436;
+}
+
+h5.shortcode_accordion_item_title:hover,
+h5.shortcode_toggles_item_title:hover,
+h5.shortcode_accordion_item_title.state-active,
+h5.shortcode_toggles_item_title.state-active {
+   color:#ed8436;
+}
+
+.module_team .item_list.type2 .teamlink:hover {
+    color: #ed8436 !important;
+}
+
+.module_cont hr.type2 {
+    border-top: #ed8436 1px solid;
+}
+
+.price_item.most_popular .price_item_title h5 {
+   color: #ed8436;
+}
+
+.shortcode_tab_item_title.active:before {
+    background: #ed8436;
+}
+
+.item_tab h6 a:hover,
+.contact_info_item a:hover,
+.shortcode_timeline a:hover {
+	color:#ed8436;
+}
+
+.shortcode_timeline_date {
+	background: #ed8436;
+}
+
+.view_link:hover,
+.view_link:hover i {
+	color:#ed8436;
+}
+
+.featured_items_body a:hover {
+	color:#ed8436;
+}
+
+.breadcrumbs a:hover {
+	color:#ed8436;
+}
+
+.map_collapse {
+	background: #ed8436;
+}
+
+.table_info_title h3 .badge {
+	background: #ed8436;
+}
+
+.send_mail h3 a {
+	color:#ed8436;
+}
+
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.coupon input[type="submit"]:hover {
+	background-color:#ed8436;
+	border: 1px #ed8436 solid;
+}
+
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+    background-color:#fff;
+	color:#ed8436;
+	border: 1px #ed8436 solid;
+}
+
+.with_reset .fright:hover:before {
+	color:#ed8436;
+}
+
+.widget_tag_cloud a:hover {
+    color:#ed8436;
+	border-color:#ed8436;
+}
+
+.countdown-amount {
+	color:#ed8436;
+}
+
+.global_count_wrapper.horizontal .count_title h1 span {
+    color:#ed8436;
+}
+
+.blogpost_title a:hover,
+.listing_meta a:hover {
+	color:#ed8436;
+}
+
+.blog_post_preview blockquote:before {
+	color:#ed8436;
+}
+
+.pagerblock li a:hover {
+	color:#ed8436;
+}
+
+.blogpost_user_meta h3 a,
+.prev_next_links a:hover,
+.comment_author_name a:hover,
+.comment_meta a:hover {
+	color:#ed8436;
+}
+
+.contact_info a:hover {
+	color:#ed8436;	
+}
+
+.widget_filter #slider-range .ui-slider-handle:before {
+	background:#ed8436;
+}
+
+.widget_filter #slider-range .ui-slider-handle:after {
+	border-top: 4px solid #ed8436;
+}
+
+.sidepanel li.current-menu-item a {
+	color:#ed8436;
+}
+
+.item_cart:hover,
+.item_link:hover,
+.shop_list_info a:hover,
+.posted_in a:hover,
+.tagged_as a:hover,
+.product-name a:hover,
+.calculate:hover,
+h2.portf_title a:hover {
+	color:#ed8436;
+}
+
+.filter_navigation ul li ul li a:hover {
+	color:#ed8436;
+	border-color:#ed8436;
+}
+
+.filter_navigation ul li ul li a:before {
+	background-color:#ed8436;
+}
+
+.slide_title span {
+	color:#ed8436;
+}
+
+.slide_btn a {
+	background-color:#ed8436;
+	border-color:#ed8436;
+}
+
+.news_block .img_block:before {
+	border:1px #ed8436 solid;
+}
+
+.proj_title h5 a:hover,
+.proj_meta a:hover {
+	color:#ed8436;
+}
+
+.page_has_countdown .count_title h1 {
+    color:#ed8436;
+}
+
+.color_bg {
+    background-color:#ed8436;
+}
+
+.slide_btn a.light_parent:hover,
+.light_parent .slide_btn a:hover {
+	background-color:#fff;
+	border-color:#ed8436;
+}
+
+.table_info_details,
+.table_info_details:focus {
+	color:#ed8436;
+}
+
+.mobile_menu_wrapper a:hover,
+.mobile_menu_wrapper .current-menu-parent a,
+.mobile_menu_wrapper .current-menu-parent .sub-menu a:hover,
+.mobile_menu_wrapper .current-menu-parent .sub-menu li.current-menu-parent a.mob_link {
+	color:#ed8436;
+}
+
+.mobile_menu_wrapper .current-menu-item a.mob_link {
+	color:#ed8436 !important;
+}
+
+.mobile_menu_wrapper li.current-menu-parent.menu-item-has-children:before,
+.mobile_menu_wrapper li.menu-item-has-children:hover:before {
+	color:#ed8436;
+}
+
+.login_popup .forgot_password a:hover {
+	color:#ed8436;
+}
+
